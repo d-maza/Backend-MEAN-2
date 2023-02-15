@@ -1,0 +1,23 @@
+{
+  "name": "mystore_back2",
+  "version": "1.0.0",
+  "description": "Api Store Angular",
+  "main": "app.js",
+  "scripts": {  
+    "dev": "nodemon app.js",
+    "build": "npm run build",
+    "start": "node app.js"
+  },
+  "author": "david.maza@hotmail.es",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
